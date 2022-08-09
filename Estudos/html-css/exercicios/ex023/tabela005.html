@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+    <style>
+                body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 20px;
+        }
+
+        col.cnome {
+            background-color: aqua;
+        }
+
+        col.csecso {
+            background-color: lightgreen;
+        }
+
+        col.cgroup {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csecso">
+            <col class="cgroup" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Jorge</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Otávio</td>
+            <td>F</td>
+            <td>42</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>61</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Rogerio</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Veterinário</td>
+        </tr>
+        <tr>
+            <td>Hélio</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Nutrólogo</td>
+        </tr>
+    </table>
+</body>
+</html>
